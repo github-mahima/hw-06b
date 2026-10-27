@@ -1,0 +1,29 @@
+﻿python : testAboveMaximum (TestTriangle.TestTriangles.testAboveMaximum) ... ok
+At line:1 char:1
++ python -m unittest TestTriangle -v 2>&1 | Out-File -FilePath test_run ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (testAboveMaximu...Maximum) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+testEquilateralTriangles (TestTriangle.TestTriangles.testEquilateralTriangles) ... ok
+testIsocelesA (TestTriangle.TestTriangles.testIsocelesA) ... ok
+testIsocelesB (TestTriangle.TestTriangles.testIsocelesB) ... ok
+testIsocelesC (TestTriangle.TestTriangles.testIsocelesC) ... ok
+testMaximumValid (TestTriangle.TestTriangles.testMaximumValid) ... ok
+testNegativeSide (TestTriangle.TestTriangles.testNegativeSide) ... ok
+testNonInteger (TestTriangle.TestTriangles.testNonInteger) ... ok
+testNotATriangleA (TestTriangle.TestTriangles.testNotATriangleA) ... ok
+testNotATriangleB (TestTriangle.TestTriangles.testNotATriangleB) ... ok
+testRightTriangleA (TestTriangle.TestTriangles.testRightTriangleA) ... ok
+testRightTriangleB (TestTriangle.TestTriangles.testRightTriangleB) ... ok
+testRightTriangleC (TestTriangle.TestTriangles.testRightTriangleC) ... ok
+testScalene (TestTriangle.TestTriangles.testScalene) ... ok
+testStringInput (TestTriangle.TestTriangles.testStringInput) ... ok
+testZeroSide (TestTriangle.TestTriangles.testZeroSide) ... ok
+testZeroSideB (TestTriangle.TestTriangles.testZeroSideB) ... ok
+testZeroSideC (TestTriangle.TestTriangles.testZeroSideC) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.001s
+
+OK

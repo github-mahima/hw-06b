@@ -76,6 +76,8 @@ class TestTriangles(unittest.TestCase):
 
     def testZeroSideC(self):
         self.assertEqual(classifyTriangle(5, 5, 0), 'InvalidInput')
+    def testStringInput(self):
+        self.assertEqual(classifyTriangle("3", 4, 5), 'InvalidInput')
 
 
 if __name__ == '__main__':
